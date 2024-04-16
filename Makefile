@@ -1,9 +1,9 @@
-PROJECT_NAME := xyz Package
+PROJECT_NAME := pingone Package
 
 SHELL            := /bin/bash
-PACK             := xyz
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @abc/${PACK}
+PACK             := pingone
+PROJECT          := github.com/amar-ysabie/pulumi-pingone
+NODE_MODULE_NAME := @amar-ysabie/${PACK}
 TF_NAME          := ${PACK}
 PROVIDER_PATH    := provider
 VERSION_PATH     := ${PROVIDER_PATH}/pkg/version.Version
